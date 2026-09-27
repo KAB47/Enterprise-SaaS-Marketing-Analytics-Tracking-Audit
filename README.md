@@ -26,25 +26,25 @@ A 7-task Excel assessment on ~25,000 rows of marketing attribution data for a fi
 
 ## Analysis Breakdown
 
-**Task 1 — GA vs Ares Tracking Discrepancy**
+**01 — Attribution & Tracking Accuracy**
 Calculated the daily percentage difference between Google Analytics and Ares-reported transactions, then conditionally formatted any day outside ±10% to surface tracking issues at a glance — most days sat within a tight 3-8% band, making the 5 Dec outlier easy to spot.
 
-**Task 2 — Lookup-Based Cost Retrieval**
+**02 — Data Preparation & Lookup Analysis**
 Combined Channel and Source into a single label with a text formula, then used lookup formulas against a cost table and SUMIFS-style conditions to pull total TikTok spend and total UK Facebook spend directly from the raw dataset.
 
-**Task 3 — Channel Efficiency Scorecard**
+**03 — Marketing Channel Performance**
 Built ROAS, CPP (Cost Per Purchase), CAC, and AOV for every channel from Cost, Revenue, and Conversions, then used the scorecard to identify the best-performing paid channel on each metric (Performance Max on ROAS; Affiliates on CPP/CAC, reflecting its zero-cost organic nature).
 
-**Task 4 — UK vs US Market ROAS (Pivot Table)**
+**04 — ROAS by Market & Paid Channel (Pivot Table)**
 Pivoted Cost, Revenue, and ROAS by Market for each paid channel. The US outperforms the UK on every paid channel, most sharply on Paid Social (9.24 ROAS in the US vs 1.84 in the UK) — pointing to a budget-allocation opportunity rather than a channel-quality problem.
 
-**Task 5 — Paid Social ROAS Trend (Pivot Table + Chart)**
+**05 — Paid Social ROAS Trend (Pivot Table + Chart)**
 Tracked Paid Social ROAS month-by-month from June to October as spend roughly doubled (£265K→£598K). ROAS fell from 4.36 to 2.29 over the same period, showing efficiency eroding as budget scaled up.
 
-**Task 6 — Paid Social Source Efficiency, October (Pivot Table + Chart)**
+**06 — Paid Social Source Efficiency, October (Pivot Table + Chart)**
 Broke October's Paid Social spend down by source (Facebook, TikTok, Snapchat, Pinterest) to compare CAC. Snapchat was cheapest to acquire on despite the smallest budget share, while Facebook — the largest budget line — was the least efficient.
 
-**Task 7 — UK Spend vs Revenue Over Time (Pivot Table + Chart)**
+**07 — UK Spend vs Revenue Over Time (Pivot Table + Chart)**
 Pivoted UK Cost and Revenue by month to test whether five months of rising paid investment translated into revenue growth. It did overall, but ROAS peaked mid-way through the period and softened as spend kept climbing — consistent with diminishing marginal returns.
 
 ## Tools & Stack
