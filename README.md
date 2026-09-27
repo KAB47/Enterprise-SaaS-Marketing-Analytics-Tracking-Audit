@@ -5,7 +5,7 @@ Auditing tracking accuracy, calculating channel efficiency KPIs, and building pi
 
 ## TL;DR
 
-A 7-task Excel assessment on ~25,000 rows of marketing attribution data for a fictitious SaaS/CDP client. Covers tracking-discrepancy auditing, cost lookups, channel efficiency scoring (ROAS, CPP, CAC, AOV), and pivot-table analysis of market performance, Paid Social decline, source efficiency, and UK spend vs. revenue.
+A 7-task Excel project on ~25,000 rows of marketing attribution data for a fictitious SaaS/CDP client. Covers tracking-discrepancy auditing, cost lookups, channel efficiency scoring (ROAS, CPP, CAC, AOV), and pivot-table analysis of market performance, Paid Social decline, source efficiency, and UK spend vs. revenue.
 
 ## Main Insights Found / Outcomes
 
